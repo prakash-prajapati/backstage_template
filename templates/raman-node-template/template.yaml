@@ -71,7 +71,7 @@ spec:
       optional: true
       input:
  #       repoContentsUrl: ${{ steps['fetch-base'].output.repoContentsUrl }}
-         repoContentsUrl: 'https://raw.githubusercontent.com/prakash-prajapati/backstage_template/refs/heads/main/templates/raman-node-template/skeleton/catalog-info.yaml'
+         repoContentsUrl: 'https://github.com/prakash-prajapati/backstage_template/blob/main/templates/raman-node-template/skeleton/catalog-info.yaml'
  #       catalogInfoPath: ./catalog-info.yaml
 
   output:
