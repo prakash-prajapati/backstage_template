@@ -68,6 +68,7 @@ spec:
     - id: register
       name: Register in Catalog
       action: catalog:register
+      optional: true
       input:
  #       repoContentsUrl: ${{ steps['fetch-base'].output.repoContentsUrl }}
          repoContentsUrl: 'https://raw.githubusercontent.com/prakash-prajapati/backstage_template/refs/heads/main/templates/raman-node-template/skeleton/catalog-info.yaml'
